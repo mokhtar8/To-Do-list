@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #153677, #4e085f);
+}
+
+.container {
+    background-color: #fff;
+    display: grid;
+    justify-content: center;
+    max-width: 540px;
+    margin: 100px auto 25px;
+border-radius: 20px;
+}
+
+
+.buttonsec{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.complete{
+    background-color: skyblue;
+    border: #153677 solid 1px;
+    padding: 6px;
+    border-radius: 16px;
+    margin: 20px 20px 14px 0;
+}
+
+.delete{
+    background-color: skyblue;
+    border: #153677 solid 1px;
+    padding: 6px;
+    border-radius: 16px;
+    margin: 20px 20px 14px 0;
+
+}
+
+.deletecompleted{
+    background-color: skyblue;
+    border: #153677 solid 1px;
+    padding: 6px;
+    border-radius: 16px;
+    margin: 20px 20px 14px 0;
+
+}
+
+.input {
+    width: 301px;
+    height: 25px;
+
+}
+
+.lilist,
+li {
+    display: flex;
+
+    list-style: none;
+    text-overflow: ellipsis;
+
+}
+
+.deletimg {
+    position: relative;
+    bottom: 19px;
+    left: 245px;
+    width: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.checkimg {
+    position: relative;
+    bottom: 46px;
+    right: 37px;
+    width: 24px;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+.circleimg {
+    position: relative;
+    bottom: 21px;
+    right: 54px;
+    width: 22px;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+.checkimg{
+    display: none;
+}
+
